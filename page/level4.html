@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CSS Game</title>
+	<title>Square 4</title>
 	<LINK REL = Stylesheet TYPE ="text/css" HREF ="..\css\gameStyles.css">
 	
 <style>
 
 #square {
-  display: inline-block;
   width: 4vw;
   height: 4vw;
-  background-color: white;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  
+  box-shadow: none; 
   margin: .2vw;
-
-  transform-style: preserve3d;
-  transition-duration: 0.5s;
-  animation: fadein 2s ease infinite alternate;
+  animation: fadeInGrid 2s ease infinite alternate;
 }
 
 #square:hover {
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.3s;
+	box-shadow: 0px 0px 40px rgba(0, 0, 255, 0.4), 0px 0px 40px 0px rgba(27, 0, 96, 0.1) inset;
+	background-color: rgba(0, 0, 0, 0.018);
+	
 }
 
 #square:active {
-	opacity: 0.5;
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 0px 20px inset rgba(0, 0, 0, 0.9);
-
+	background-color: rgba(83, 15, 255, 1.0);
+	box-shadow: 0px 0px 40px rgba(0, 0, 255, 0.4), 0px 0px 40px 0px rgba(27, 0, 96, 0.1) inset;
 }
 
-.t1 {
-	animation-delay: .5s;
+#theSquare {
+  width: 4vw;
+  height: 4vw;
+  box-shadow: none; 
+  margin: .2vw;
+  animation: fadeInGridS 2s ease infinite alternate;
 }
+
+#theSquare:hover {
+	background-color: rgba(0, 0, 0, 0.4;);
+	
+}
+
+#theSquare:hover {
+	background-color: rgba(0, 0, 0, 0.4;);
+	
+}
+
 
 
 </style>
@@ -41,33 +52,114 @@
 
 <body>
 
-<h1 class="title">How far can you go?</h1>
+<h1 class="title">Choose Wisely</h1>
 
-<div id="game" style="width: 95vw;">
-
-
-<a href="tryagain.html"><div id="square"></div></a>
-<div id="square" class="t1"></div>
-<div id="square"></div>
-<div id="square t1"></div>
-<div id="square" class="t1"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
-<div id="square"></div>
+<div id="game" style="width: 60vw;">
 
 
+<a href="tryagain.html">
+<div id="square" style="animation-delay: 0.0s;"></div>
+<div id="square" style="animation-delay: 0.2s;"></div>
+<div id="square" style="animation-delay: 0.4s;"></div>
+<div id="square" style="animation-delay: 0.6s;"></div>
+<div id="square" style="animation-delay: 0.8s;"></div>
+<div id="square" style="animation-delay: 1.0s;"></div>
+<div id="square" style="animation-delay: 1.2s;"></div>
+<div id="square" style="animation-delay: 1.4s;"></div>
+<div id="square" style="animation-delay: 1.6s;"></div>
+<div id="square" style="animation-delay: 1.8s;"></div>
+<div id="square" style="animation-delay: 2.0s;"></div>
+<div id="square" style="animation-delay: 2.2s;"></div>
+
+<div id="square" style="animation-delay: 0.2s;"></div>
+<div id="square" style="animation-delay: 0.4s;"></div>
+<div id="square" style="animation-delay: 0.6s;"></div>
+<div id="square" style="animation-delay: 0.8s;"></div>
+<div id="square" style="animation-delay: 1.0s;"></div>
+<div id="square" style="animation-delay: 1.2s;"></div>
+<div id="square" style="animation-delay: 1.4s;"></div>
+<div id="square" style="animation-delay: 1.6s;"></div>
+<div id="square" style="animation-delay: 1.8s;"></div>
+<div id="square" style="animation-delay: 2.0s;"></div>
+<div id="square" style="animation-delay: 2.2s;"></div>
+<div id="square" style="animation-delay: 2.4s;"></div>
+
+<div id="square" style="animation-delay: 0.4s;"></div>
+<div id="square" style="animation-delay: 0.6s;"></div>
+<div id="square" style="animation-delay: 0.8s;"></div>
+<div id="square" style="animation-delay: 1.0s;"></div>
+<div id="square" style="animation-delay: 1.2s;"></div>
+<div id="square" style="animation-delay: 1.4s;"></div>
+<div id="square" style="animation-delay: 1.6s;"></div>
+<div id="square" style="animation-delay: 1.8s;"></div>
+<div id="square" style="animation-delay: 2.0s;"></div>
+<div id="square" style="animation-delay: 2.2s;"></div>
+<div id="square" style="animation-delay: 2.4s;"></div>
+<div id="square" style="animation-delay: 2.6s;"></div>
+
+<div id="square" style="animation-delay: 0.6s;"></div>
+<div id="square" style="animation-delay: 0.8s;"></div>
+<div id="square" style="animation-delay: 1.0s;"></div>
+<div id="square" style="animation-delay: 1.2s;"></div>
+<div id="square" style="animation-delay: 1.4s;"></div>
+<div id="square" style="animation-delay: 1.6s;"></div>
+<div id="square" style="animation-delay: 1.8s;"></div>
+<div id="square" style="animation-delay: 2.0s;"></div>
+<div id="square" style="animation-delay: 2.2s;"></div>
+<a href="level5.html">
+<div id="theSquare" style="animation-delay: 2.65s;"></div>
+</a>
+<div id="square" style="animation-delay: 2.6s;"></div>
+<div id="square" style="animation-delay: 2.8s;"></div>
+
+<div id="square" style="animation-delay: 0.8s;"></div>
+<div id="square" style="animation-delay: 1.0s;"></div>
+<div id="square" style="animation-delay: 1.2s;"></div>
+<div id="square" style="animation-delay: 1.4s;"></div>
+<div id="square" style="animation-delay: 1.6s;"></div>
+<div id="square" style="animation-delay: 1.8s;"></div>
+<div id="square" style="animation-delay: 2.0s;"></div>
+<div id="square" style="animation-delay: 2.2s;"></div>
+<div id="square" style="animation-delay: 2.4s;"></div>
+<div id="square" style="animation-delay: 2.6s;"></div>
+<div id="square" style="animation-delay: 2.8s;"></div>
+<div id="square" style="animation-delay: 3.0s;"></div>
+
+<div id="square" style="animation-delay: 1.0s;"></div>
+<div id="square" style="animation-delay: 1.2s;"></div>
+<div id="square" style="animation-delay: 1.4s;"></div>
+<div id="square" style="animation-delay: 1.6s;"></div>
+<div id="square" style="animation-delay: 1.8s;"></div>
+<div id="square" style="animation-delay: 2.0s;"></div>
+<div id="square" style="animation-delay: 2.2s;"></div>
+<div id="square" style="animation-delay: 2.4s;"></div>
+<div id="square" style="animation-delay: 2.6s;"></div>
+<div id="square" style="animation-delay: 2.8s;"></div>
+<div id="square" style="animation-delay: 3.0s;"></div>
+<div id="square" style="animation-delay: 3.2s;"></div>
+
+
+</a>
+
+</div>
+
+<div id="borderL">
+<span id="borderSquare" style="height: 1.7vw; width: 1.7vw; margin: 0vw 4vw; animation-delay: 1.3s"></span>
+<span id="borderSquare" style="height: 1vw; width: 1vw; margin: 0vw 8vw; animation-delay: 0.1s"></span>
+<span id="borderSquare" style="height: 3vw; width: 3vw; margin: 4vw 7vw; animation-delay: 2s"></span>
+<span id="borderSquare" style="height: 2vw; width: 2vw; margin: 5vw 1vw; animation-delay: 0s"></span>
+<span id="borderSquare" style="height: 6vw; width: 6vw; margin: 3.8vw 3vw; animation-delay: 0.3s"></span>
+<span id="borderSquare" style="height: 4.7vw; width: 4.7vw; margin: 3vw 3vw; animation-delay: 0.8s"></span>
+<span id="borderSquare" style="height: 3.85vw; width: 3.85vw; margin: 6vw 2vw; animation-delay: 3s"></span>
+</div>
+
+<div id="borderR">
+<span id="borderSquare" style="height: 1vw; width: 1vw; margin: 1vw 2vw; animation-delay: 0.1s"></span>
+<span id="borderSquare" style="height: 3vw; width: 3vw; margin: 4vw 1vw; animation-delay: 2s"></span>
+<span id="borderSquare" style="height: 6vw; width: 6vw; margin: 3.8vw 3vw; animation-delay: 0.3s"></span>
+<span id="borderSquare" style="height: 2vw; width: 2vw; margin: 4vw 1vw; animation-delay: 0s"></span>
+<span id="borderSquare" style="height: 4.7vw; width: 4.7vw; margin: 3vw 1.09vw; animation-delay: 0.8s"></span>
+<span id="borderSquare" style="height: 1vw; width: 1vw; margin: 0vw 2.8vw; animation-delay: 0.1s"></span>
 </div>
 
 </body>
